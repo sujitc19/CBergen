@@ -1,0 +1,11 @@
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.deps.json
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.json
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.dev.json
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.dll
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.pdb
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csprojResolveAssemblyReference.cache
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csproj.CoreCompileInputs.cache
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfoInputs.cache
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
+c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
