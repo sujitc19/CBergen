@@ -9,3 +9,14 @@ c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.
 c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
 c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
 c:\users\sujit\source\repos\CarolineBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.deps.json
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.json
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.dev.json
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csprojAssemblyReference.cache
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csproj.CoreCompileInputs.cache
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfoInputs.cache
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
