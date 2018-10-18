@@ -20,3 +20,14 @@ C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcore
 C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
 C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
 C:\Users\schakkalakkal\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.deps.json
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.json
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.dev.json
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csprojAssemblyReference.cache
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csproj.CoreCompileInputs.cache
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfoInputs.cache
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
