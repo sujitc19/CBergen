@@ -1,6 +1,11 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-family: 'Lato', serif;
 }
 
 /* Wrapping element */
@@ -53,28 +58,20 @@ a {
     }
 
 h1, h2, h3 {
-    font-family: 'candara', serif;
+    font-family: 'Lato', serif;
     padding: 0;
     margin: 0;
 }
 
 ol, ul {
-    font-family: 'candara', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 p {
-    font-family: 'candara', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-size-adjust: 100%;
 }
 
 .containWrapper {
@@ -249,4 +246,52 @@ h2.sectionTitles {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+}
+
+/*PORTFOLIO*/
+.portfolioCol1 {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.portfolioCol2 {
+    float: right;
+    width: 50%;
+    padding: 2%;
+}
+
+.portImg {
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid #000000;
+    position: relative;
+}
+
+    .portImg:hover {
+        opacity: 0.6;
+    }
+
+.portText {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height:60px;
+    color:#000;
+}
+
+.bgPortText {
+    background-color: #fff;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
