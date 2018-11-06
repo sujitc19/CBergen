@@ -31,3 +31,14 @@ C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBer
 C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
 C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
 C:\Users\Lita\Desktop\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.deps.json
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.json
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.dev.json
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csprojResolveAssemblyReference.cache
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csproj.CoreCompileInputs.cache
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfoInputs.cache
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb

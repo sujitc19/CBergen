@@ -12,5 +12,10 @@ namespace CarolineBergen.Controllers
         {
             return View();
         }
+
+        public IActionResult Illustrations()
+        {
+            return View();
+        }
     }
 }
