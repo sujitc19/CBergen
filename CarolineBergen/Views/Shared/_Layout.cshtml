@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="~/css/site.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
         <link rel="stylesheet" type="text/css" href="~/slick/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" href="~/lib/gridder/css/jquery.gridder.min.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -35,6 +36,7 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Portfolio" asp-action="Index">Portfolio</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><img src="~/images/logoTransparent.png" class="logoImgNav" style="max-width:100px;" /></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                     <li><a href="https://google.com/shopping" target="_blank">Shopping</a></li>
                     <li><a href="https://www.instagram.com/carolinebergen_art/" target="_blank">Instagram</a></li>
@@ -55,6 +57,7 @@
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="~/lib/gridder/js/jquery.gridder.js"></script>
     </environment>
     <environment exclude="Development">
         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
@@ -73,5 +76,32 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+    <script>
+    $(function () {
+
+        // Call Gridder
+        $('.gridder').gridderExpander({
+            scroll: true,
+            scrollOffset: 30,
+            scrollTo: "panel",                  // panel or listitem
+            animationSpeed: 400,
+            animationEasing: "easeInOutExpo",
+            showNav: true,                      // Show Navigation
+            nextText: "Next",                   // Next button text
+            prevText: "Previous",               // Previous button text
+            closeText: "Close",                 // Close button text
+            onStart: function () {
+                //Gridder Inititialized
+            },
+            onContent: function () {
+                //Gridder Content Loaded
+            },
+            onClosed: function () {
+                //Gridder Closed
+            }
+        });
+
+    });
+</script>
 </body>
 </html>

@@ -58,7 +58,7 @@ a {
     }
 
 h1, h2, h3 {
-    font-family: 'Lato', serif;
+    font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -99,6 +99,11 @@ img {
 }
 
 /*NAV*/
+
+.logoImgNav{
+    max-width:100px;
+
+}
 
 .navigation {
     width: 100%;
@@ -188,11 +193,9 @@ a .home {
 
 /*ABOUT*/
 .aboutSection {
-    margin: 0 auto;
     max-width: 960px;
     width: 100%;
-    margin-top: 2%;
-    margin-bottom: 8%;
+    margin: 2% auto 8% auto;
     font-size: 20px;
     line-height: 34px;
 }
