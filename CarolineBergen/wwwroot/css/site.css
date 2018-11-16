@@ -5,7 +5,7 @@
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-family: 'Lato', serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Wrapping element */
@@ -195,7 +195,7 @@ a .home {
 .aboutSection {
     max-width: 960px;
     width: 100%;
-    margin: 2% auto 8% auto;
+    margin: 2% auto 3% auto;
     font-size: 20px;
     line-height: 34px;
 }
@@ -255,6 +255,22 @@ h2.sectionTitles {
 }
 
 /*PORTFOLIO*/
+
+.portfolioSection {
+    max-width: 960px;
+    width: 100%;
+    margin: 8% auto 3% auto;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+h2.portfolioSectionTitle{
+    margin: 0 auto;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:36px;
+    padding-bottom:2%;
+}
 .portfolioCol1 {
     float: left;
     width: 50%;
@@ -300,4 +316,51 @@ h2.sectionTitles {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/*GRIDDER*/
+.gridder-navigation a {
+    background: #FFF;
+    display: inline-block;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 0px;
+    transition: all .3s ease-in-out;
+}
+
+.gridder-expanded-content{
+    padding-bottom:3%;
+}
+
+.gridder-show .description {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    line-height: 170%;
+    color: #000;
+}
+
+    .gridder-show .description h2 {
+        display: inline-block;
+        background: #000;
+        color: #FFF;
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    /*FOOTER*/
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:auto;
+    margin-right:auto;
 }

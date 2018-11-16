@@ -235,9 +235,9 @@
         animationSpeed: 400,
         animationEasing: "easeInOutExpo",
         showNav: true,
-        nextText: "Next",
-        prevText: "Previous",
-        closeText: "Close",    
+        nextText: "<i class=\"fa fa-arrow-right\"></i>",
+        prevText: "<i class=\"fa fa-arrow-left\"></i>",
+        closeText: "<i class=\"fa fa-times\"></i>",   
         onStart: function(){},
         onContent: function(){},
         onClosed: function(){}

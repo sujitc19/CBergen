@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "comics";
+}
+<div class="portfolioSection">
+    <h2 class="portfolioSectionTitle">Comics</h2>
+    <!-- Gridder navigation -->
+    <ul class="gridder">
+
+        <!-- You can load specify which content is loaded by specifying the #ID of the div where the content is  -->
+        <li class="gridder-list" data-griddercontent="#content1">
+            <img src="~/images/comics/airport-goodbye_for-web.jpg" width="300px" />
+        </li>
+        <li class="gridder-list" data-griddercontent="#content2">
+            <img src="~/images/comics/little-moments_fro-web.jpg" width="300px" />
+        </li>
+        <li class="gridder-list" data-griddercontent="#content3">
+            <img src="~/images/comics/love-who-we-truly-are_for-web.jpg" width="300px" />
+        </li>
+        <li class="gridder-list" data-griddercontent="#content4">
+            <img src="~/images/comics/skype-date_for-web.jpg" width="300px" />
+        </li>
+        <li class="gridder-list" data-griddercontent="#content5">
+            <img src="~/images/comics/time-difference_for-web.jpg" width="300px" />
+        </li>
+        <li class="gridder-list" data-griddercontent="#content6">
+            <img src="~/images/comics/Skype-Secrects-2_for-web.jpg" width="300px" />
+        </li>
+    </ul>
+
+    <!-- Gridder content -->
+    <div id="content1" class="gridder-content">
+        <img src="~/images/comics/airport-goodbye_for-web.jpg" />
+    </div>
+    <div id="content2" class="gridder-content"> <img src="~/images/comics/little-moments_fro-web.jpg" /> </div>
+    <div id="content3" class="gridder-content"> <img src="~/images/comics/love-who-we-truly-are_for-web.jpg" /> </div>
+    <div id="content4" class="gridder-content"> <img src="~/images/comics/skype-date_for-web.jpg" /> </div>
+    <div id="content5" class="gridder-content"> <img src="~/images/comics/time-difference_for-web.jpg" /> </div>
+    <div id="content6" class="gridder-content"> <img src="~/images/comics/Skype-Secrects-2_for-web.jpg" /> </div>
+
+    <script>
+        $(document).ready(function () {
+
+            // Call Gridder
+            $(".gridder").gridderExpander({
+                scroll: true,
+                scrollOffset: 60,
+                scrollTo: "panel", // panel or listitem
+                animationSpeed: 400,
+                animationEasing: "easeInOutExpo",
+                showNav: true,
+                onStart: function () {
+                    console.log("Gridder Inititialized");
+                },
+                onExpanded: function (object) {
+                    console.log("Gridder Expanded");
+                },
+                onChanged: function (object) {
+                    console.log("Gridder Changed");
+                },
+                onClosed: function () {
+                    console.log("Gridder Closed");
+                }
+            });
+        });
+    </script>
+</div>

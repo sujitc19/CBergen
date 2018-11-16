@@ -13,12 +13,27 @@ namespace CarolineBergen.Controllers
             return View();
         }
 
-        public IActionResult Illustrations()
+        public IActionResult illustrations()
         {
             return View();
         }
 
-        public IActionResult GraphicDesign()
+        public IActionResult graphicDesign()
+        {
+            return View();
+        }
+
+        public IActionResult traditional()
+        {
+            return View();
+        }
+
+        public IActionResult comics()
+        {
+            return View();
+        }
+
+        public IActionResult gridderDemo()
         {
             return View();
         }

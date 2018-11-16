@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CarolineBergen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -36,7 +37,7 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Portfolio" asp-action="Index">Portfolio</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><img src="~/images/logoTransparent.png" class="logoImgNav" style="max-width:100px;" /></li>
+                    <!--<li><img src="~/images/logoTransparent.png" class="logoImgNav" style="max-width:100px;" /></li>-->
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                     <li><a href="https://google.com/shopping" target="_blank">Shopping</a></li>
                     <li><a href="https://www.instagram.com/carolinebergen_art/" target="_blank">Instagram</a></li>
@@ -46,10 +47,7 @@
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - CarolineBergen</p>
-        </footer>
+
     </div>
 
     <environment include="Development">
@@ -77,7 +75,7 @@
 
     @RenderSection("Scripts", required: false)
     <script>
-    $(function () {
+        $(document).ready(function () {
 
         // Call Gridder
         $('.gridder').gridderExpander({
@@ -87,9 +85,9 @@
             animationSpeed: 400,
             animationEasing: "easeInOutExpo",
             showNav: true,                      // Show Navigation
-            nextText: "Next",                   // Next button text
-            prevText: "Previous",               // Previous button text
-            closeText: "Close",                 // Close button text
+            nextText: "<i class=\"fa fa-arrow-right\"></i>",
+        prevText: "<i class=\"fa fa-arrow-left\"></i>",
+        closeText: "<i class=\"fa fa-times\"></i>",
             onStart: function () {
                 //Gridder Inititialized
             },
@@ -103,5 +101,10 @@
 
     });
 </script>
+     <hr />
+    <footer>
+        <div class="footer">
+            <p>&copy; 2018 - CarolineBergen</p>
+        </div></footer>
 </body>
 </html>
