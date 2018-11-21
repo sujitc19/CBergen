@@ -287,28 +287,43 @@ h2.portfolioSectionTitle {
 .portImg {
     max-width: 600px;
     width: 100%;
-    border: 2px solid #000000;
+    border: 2px solid #eee;
     position: relative;
 }
 
 
     .portImg:hover {
+        background-color: #fff;
         opacity: 0.6;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
     }
 
 .portText {
-    text-align: center;
-    margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 60px;
-    color: #000;
-}
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 48px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 60px;
+        color: #000;
+        -webkit-transition: all 0.4s ease-out-in 0s;
+        -moz-transition: all 0.4s ease-out-in 0s;
+        transition: all 0.4s ease-out-in 0s;
+    }
+
+    .portText:hover {
+        opacity: 1;
+        color: #000;
+        -webkit-transition: all 0.4s ease-out-in 0s;
+        -moz-transition: all 0.4s ease-out-in 0s;
+        transition: all 0.4s ease-out-in 0s;
+    }
 
 .bgPortText {
     width: 10%;
