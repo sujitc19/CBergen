@@ -42,3 +42,14 @@ C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\C
 C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
 C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
 C:\Users\Sujit\Documents\GitHub\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\Lita\Documents\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.deps.json
+C:\Users\Lita\Documents\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.json
+C:\Users\Lita\Documents\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.runtimeconfig.dev.json
+C:\Users\Lita\Documents\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\Lita\Documents\CBergen\CarolineBergen\bin\Debug\netcoreapp2.0\CarolineBergen.pdb
+C:\Users\Lita\Documents\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csprojAssemblyReference.cache
+C:\Users\Lita\Documents\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.csproj.CoreCompileInputs.cache
+C:\Users\Lita\Documents\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfoInputs.cache
+C:\Users\Lita\Documents\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.AssemblyInfo.cs
+C:\Users\Lita\Documents\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.dll
+C:\Users\Lita\Documents\CBergen\CarolineBergen\obj\Debug\netcoreapp2.0\CarolineBergen.pdb

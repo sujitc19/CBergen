@@ -5,13 +5,13 @@
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-   padding-left: 15px;
+    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -58,7 +58,7 @@ a {
     }
 
 h1, h2, h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
     padding: 0;
     margin: 0;
 }
@@ -69,7 +69,7 @@ ol, ul {
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -100,16 +100,16 @@ img {
 
 /*NAV*/
 
-.logoImgNav{
-    max-width:100px;
-
+.logoImgNav {
+    max-width: 100px;
 }
 
 .navigation {
     width: 100%;
-    font-family: 'candara', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
     height: 250px;
     background-color: #166dbe;
+    letter-spacing: .1em;
 }
 
 .nav ul {
@@ -186,7 +186,7 @@ a .home {
     max-height: 800px;
     width: 100%;
     height: 98vh;
-    margin-top:8%;
+    margin-top: 8%;
 }
 
 
@@ -209,7 +209,7 @@ a .home {
     float: left;
     width: 40%;
     max-width: 500px;
-    margin-top:4%;
+    margin-top: 4%;
 }
 
     .aboutPhoto img {
@@ -224,12 +224,12 @@ a .home {
 
 h2.sectionTitles {
     text-align: left;
-    font-size: 50px;
-    padding-bottom: 30px;
+    font-size: 40px;
+    padding-bottom: 40px;
     margin-left: 55%;
-    margin-top:10%;
-    text-transform: uppercase;
+    margin-top: 10%;
     font-weight: bold;
+    color: #166dbe;
 }
 
 .signature {
@@ -264,13 +264,14 @@ h2.sectionTitles {
     line-height: 34px;
 }
 
-h2.portfolioSectionTitle{
+h2.portfolioSectionTitle {
     margin: 0 auto;
-    text-align:center;
-    text-transform:uppercase;
-    font-size:36px;
-    padding-bottom:2%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: #166dbe;
 }
+
 .portfolioCol1 {
     float: left;
     width: 50%;
@@ -305,8 +306,8 @@ h2.portfolioSectionTitle{
     font-size: 48px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height:60px;
-    color:#000;
+    line-height: 60px;
+    color: #000;
 }
 
 .bgPortText {
@@ -330,8 +331,8 @@ h2.portfolioSectionTitle{
     transition: all .3s ease-in-out;
 }
 
-.gridder-expanded-content{
-    padding-bottom:3%;
+.gridder-expanded-content {
+    padding-bottom: 3%;
 }
 
 .gridder-show .description {
@@ -357,10 +358,10 @@ h2.portfolioSectionTitle{
         font-weight: 700;
     }
 
-    /*FOOTER*/
+/*FOOTER*/
 .footer {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
