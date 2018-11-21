@@ -120,8 +120,8 @@ img {
 }
 
 ul.nav {
-    margin: 0;
-    padding: 0 20px 0 0;
+    margin: -25px 100px 20px 100px;
+    padding: 0;
     text-align: center;
 }
 
@@ -195,7 +195,7 @@ a .home {
 .aboutSection {
     max-width: 960px;
     width: 100%;
-    margin: 2% auto 3% auto;
+    margin: 8% auto 3% auto;
     font-size: 20px;
     line-height: 34px;
 }
@@ -259,7 +259,7 @@ h2.sectionTitles {
 .portfolioSection {
     max-width: 960px;
     width: 100%;
-    margin: 8% auto 3% auto;
+    margin: 10% auto 3% auto;
     font-size: 20px;
     line-height: 34px;
 }
@@ -354,12 +354,16 @@ h2.portfolioSectionTitle {
         color: #FFF;
         padding: 5px;
         margin-bottom: 5px;
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 700;
+        font-family:'Noto Sans TC', sans-serif;
+        }
+    .gridder-show .description h3 {
+        background: #FFF;
+        color: #000;
     }
-
-/*FOOTER*/
-.footer {
+        /*FOOTER*/
+        .footer {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
