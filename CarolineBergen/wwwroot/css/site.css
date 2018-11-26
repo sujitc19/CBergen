@@ -5,7 +5,7 @@
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* Wrapping element */
@@ -58,7 +58,7 @@ a {
     }
 
 h1, h2, h3 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
     padding: 0;
     margin: 0;
 }
@@ -69,7 +69,7 @@ ol, ul {
 }
 
 p {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -106,7 +106,7 @@ img {
 
 .navigation {
     width: 100%;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     height: 250px;
     background-color: #166dbe;
     letter-spacing: .1em;
@@ -192,24 +192,17 @@ a .home {
 
 
 /*ABOUT*/
-.aboutSection {
-    max-width: 960px;
-    width: 100%;
-    margin: 8% auto 3% auto;
-    font-size: 20px;
-    line-height: 34px;
-}
-
-    .aboutSection p {
+    .portfolioSection p {
         padding-left: 40px;
         padding-right: 40px;
+        font-size:16px;
     }
 
 .aboutPhoto {
     float: left;
     width: 40%;
     max-width: 500px;
-    margin-top: 4%;
+    margin-top:50px;
 }
 
     .aboutPhoto img {
@@ -222,13 +215,12 @@ a .home {
     width: 60%;
 }
 
-h2.sectionTitles {
+h2.aboutTitle {
     text-align: left;
     font-size: 40px;
-    padding-bottom: 40px;
-    margin-left: 55%;
-    margin-top: 10%;
-    font-weight: bold;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:40px;
     color: #166dbe;
 }
 
@@ -259,17 +251,20 @@ h2.sectionTitles {
 .portfolioSection {
     max-width: 960px;
     width: 100%;
-    margin: 10% auto 3% auto;
-    font-size: 20px;
-    line-height: 34px;
+    margin: 11% auto 3% auto;
 }
 
 h2.portfolioSectionTitle {
     margin: 0 auto;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 40px;
     color: #166dbe;
+    padding-bottom:20px;
+}
+
+.portfolioSection a {
+    color: #166dbe;
+    font-weight:bold;
 }
 
 .portfolioCol1 {
@@ -292,14 +287,6 @@ h2.portfolioSectionTitle {
 }
 
 
-    .portImg:hover {
-        background-color: #fff;
-        opacity: 0.6;
-        -webkit-transition: all 0.4s ease-in-out 0s;
-        -moz-transition: all 0.4s ease-in-out 0s;
-        transition: all 0.4s ease-in-out 0s;
-    }
-
 .portText {
         text-align: center;
         margin: 0 auto;
@@ -315,14 +302,17 @@ h2.portfolioSectionTitle {
         -webkit-transition: all 0.4s ease-out-in 0s;
         -moz-transition: all 0.4s ease-out-in 0s;
         transition: all 0.4s ease-out-in 0s;
+        z-index:999;
     }
 
     .portText:hover {
         opacity: 1;
+        z-index:999;
         color: #000;
-        -webkit-transition: all 0.4s ease-out-in 0s;
-        -moz-transition: all 0.4s ease-out-in 0s;
-        transition: all 0.4s ease-out-in 0s;
+    }
+
+    .portfolioSection a:hover {
+        opacity: 1 !important;
     }
 
 .bgPortText {
@@ -332,6 +322,28 @@ h2.portfolioSectionTitle {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.bgPortText:hover{
+    opacity:1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.portImg:hover .overlay {
+    opacity: 1;
 }
 
 /*GRIDDER*/
@@ -371,16 +383,18 @@ h2.portfolioSectionTitle {
         margin-bottom: 5px;
         font-size: 40px;
         font-weight: 700;
-        font-family:'Noto Sans TC', sans-serif;
+        font-family:'PT Sans', sans-serif;
         }
     .gridder-show .description h3 {
         background: #FFF;
         color: #000;
+        font-family:'PT Sans', sans-serif;
     }
         /*FOOTER*/
         .footer {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
+    max-width:960px;
+    width:100%;
+    text-align:center;
+    padding-bottom:40px;
 }
