@@ -1,21 +1,75 @@
-﻿@{
+﻿@model CarolineBergen.Models.ContactViewModel
+
+@{
     ViewData["Title"] = "Contact";
 }
-<div class="portfolioSection">
-<h2 class="portfolioSectionTitle">Contact Me</h2>
-<div class="row" style="margin-top:10%;">
-    <div class="col-lg-6">
-        <img src="~/images/owl.jpg" style="width:100%" />
+<form asp-action="Contact" method="post">
+    <div class="portfolioSection">
+        <h2 class="portfolioSectionTitle">Contact Me</h2>
+        <div class="row" style="margin-top:10%;">
+            <div class="col-lg-6">
+                <img src="~/images/owl.jpg" style="width:100%" />
+            </div>
+            <div class="col-lg-6">
+                <p><strong>For inquiries please contact me via e-mail at</strong></p>
+                <address><strong>Business:</strong> <a href="mailto:caroline.bergen@outlook.com">caroline.bergen@outlook.com</a></address>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BodyMessage" class="control-label"></label>
+                    @*<input asp-for="BodyMessage" class="form-control" />*@
+                    <textarea asp-for="BodyMessage" class="form-control" style="resize:none"></textarea>
+                    <span asp-validation-for="BodyMessage" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send Email" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-lg-6">
-        <p>
-            <strong>
-                For inquiries please contact me via e-mail at
-            </strong>
-        </p>
-        <address>
-            <strong>Business:</strong> <a href="mailto:caroline.bergen@outlook.com">caroline.bergen@outlook.com</a>
-        </address>
+</form>
+@if (ViewBag.EmailSentStatus)
+{
+<!-- Modal -->
+<div class="modal fade" id="emailStatusModal" tabindex="-1" role="dialog" aria-labelledby="emailStatusModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:#166dbe; color:white">
+                <h5 class="modal-title" id="ModalLongTitle">Email Status</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Your email has successfully been sent.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
 </div>
-</div>
+}
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script>
+    $(document).ready(function ($) {
+        if ('@ViewBag.EmailSentStatus' == 'True') { 
+            $('#emailStatusModal').modal();
+        }
+    });
+</script>
