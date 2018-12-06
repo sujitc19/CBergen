@@ -35,7 +35,7 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="~/images/signature-white-small.png" class="logoImgNav" /></a>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/homeIcon.png" data-src="~/images/homeIcon.png" data-hover="~/images/homeIconHov.png" alt="" class="navbarIcon" />Home</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="linkForHover"><img src="~/images/homeIcon.png" data-src="images/homeIcon.png" data-hover="images/homeIconHov.png" alt="" class="navbarIcon" />Home</a></li>
                         <li><a asp-area="" asp-controller="Portfolio" asp-action="Index">Portfolio</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
@@ -98,6 +98,26 @@
                     //Gridder Closed
                 }
             });
+        });
+    </script>
+    <script>
+        $('document').ready(function () {
+            $(function () {
+                $(".navbarIcon").mouseover(function () {
+                    this.src = "images/homeIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/homeIcon.png"
+                });
+            });
+            $(function () {
+                $(".linkForHover").mouseover(function () {
+                    this.src = "images/homeIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/homeIcon.png"
+                });
+            });
+        });
+
     </script>
     <hr />
     <footer>
