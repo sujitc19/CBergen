@@ -35,12 +35,12 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="~/images/signature-white-small.png" class="logoImgNav" /></a>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="linkForHover"><img src="~/images/homeIcon.png" data-src="images/homeIcon.png" data-hover="images/homeIconHov.png" alt="" class="navbarIcon" />Home</a></li>
-                        <li><a asp-area="" asp-controller="Portfolio" asp-action="Index">Portfolio</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                        <li><a href="https://google.com/shopping" target="_blank">Shopping</a></li>
-                        <li><a href="https://www.instagram.com/carolinebergen_art/" target="_blank">Instagram</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="linkForHover"><img src="images/navbar/homeIcon.png" data-src="images/navbar/homeIcon.png" data-hover="images/navbar/homeIconHov.png" alt="" class="navbarIcon" />Home</a></li>
+                        <li><a asp-area="" asp-controller="Portfolio" asp-action="Index" class="linkForHover2"><img src="images/navbar/portfolioIcon.png" data-src="images/navbar/portfolioIcon.png" data-hover="images/navbar/portfolioIconHov.png" alt="" class="navbarIcon2" style="max-width:50px;"/><br/>Portfolio</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About" class="linkForHover3"><img src="images/navbar/aboutIcon.png" data-src="images/navbar/aboutIcon.png" data-hover="images/navbar/aboutIconHov.png" alt="" class="navbarIcon3" style="max-width:50px;"/><br/>About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contact"  class="linkForHover4"><img src="images/navbar/contactIcon.png" data-src="images/navbar/contactIcon.png" data-hover="images/navbarcontactIconHov.png" alt="" class="navbarIcon4" style="max-width:50px;"/><br/>Contact</a></li>
+                        <li><a href="https://society6.com/carolinebergen" target="_blank"  class="linkForHover5"><img src="images/navbar/shoppingIcon.png" data-src="images/navbar/shoppingIcon.png" data-hover="images/navbar/shoppingIconHov.png" alt="" class="navbarIcon5" style="max-width:50px;"/><br/>Shopping</a></li>
+                        <li><a href="https://www.instagram.com/carolinebergen_art/" target="_blank"  class="linkForHover6"><img src="images/navbar/instagramIcon.png" data-src="images/navbar/instagramIcon.png" data-hover="images/navbar/instagramIconHov.png" alt="" class="navbarIcon6" style="max-width:50px;"/><br/>Instagram</a></li>
                     </ul><div class="clearFloat"></div>
                 </div>
             </div>
@@ -104,16 +104,86 @@
         $('document').ready(function () {
             $(function () {
                 $(".navbarIcon").mouseover(function () {
-                    this.src = "images/homeIconHov.png"
+                    this.src = "images/navbar/homeIconHov.png"
                 }).mouseout(function () {
-                    this.src = "images/homeIcon.png"
+                    this.src = "images/navbar/homeIcon.png"
                 });
             });
             $(function () {
                 $(".linkForHover").mouseover(function () {
                     this.src = "images/homeIconHov.png"
                 }).mouseout(function () {
-                    this.src = "images/homeIcon.png"
+                    this.src = "images/navbar/homeIcon.png"
+                });
+            });
+            $(function () {
+                $(".navbarIcon2").mouseover(function () {
+                    this.src = "images/navbar/portfolioIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/portfolioIcon.png"
+                });
+            });
+            $(function () {
+                $(".linkForHover2").mouseover(function () {
+                    this.src = "images/navbar/portfolioIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/portfolioIcon.png"
+                });
+            });
+            $(function () {
+                $(".navbarIcon3").mouseover(function () {
+                    this.src = "images/navbar/aboutIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/aboutIcon.png"
+                });
+            });
+            $(function () {
+                $(".linkForHover3").mouseover(function () {
+                    this.src = "images/navbar/aboutIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/aboutIcon.png"
+                });
+            });
+            $(function () {
+                $(".navbarIcon4").mouseover(function () {
+                    this.src = "images/navbar/contactIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/contactIcon.png"
+                });
+            });
+            $(function () {
+                $(".linkForHover4").mouseover(function () {
+                    this.src = "images/navbar/contactIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/contactIcon.png"
+                });
+            });
+            $(function () {
+                $(".navbarIcon5").mouseover(function () {
+                    this.src = "images/navbar/shoppingIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/shoppingIcon.png"
+                });
+            });
+            $(function () {
+                $(".linkForHover5").mouseover(function () {
+                    this.src = "images/navbar/shoppingIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/shoppingIcon.png"
+                });
+            });
+            $(function () {
+                $(".navbarIcon6").mouseover(function () {
+                    this.src = "images/navbar/instagramIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/instagramIcon.png"
+                });
+            });
+            $(function () {
+                $(".linkForHover6").mouseover(function () {
+                    this.src = "images/navbar/instagramIconHov.png"
+                }).mouseout(function () {
+                    this.src = "images/navbar/instagramIcon.png"
                 });
             });
         });
