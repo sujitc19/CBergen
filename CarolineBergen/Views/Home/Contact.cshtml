@@ -4,6 +4,7 @@
     ViewData["Title"] = "Contact";
 }
 <form asp-action="Contact" method="post">
+    <div class="container">
     <div class="portfolioSection">
         <h2 class="portfolioSectionTitle">Contact Me</h2>
         <div class="row" style="margin-top:10%;">
@@ -42,6 +43,7 @@
         </div>
     </div>
 </form>
+</div>
 @if (ViewBag.EmailSentStatus)
 {
 <!-- Modal -->
