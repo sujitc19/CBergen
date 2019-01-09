@@ -375,7 +375,7 @@ h2.portfolioSectionTitle {
 
 .gridder-show .description {
     position: absolute;
-    top: 60px;
+    top: 0px;
     left: 0px;
     right: 0px;
     text-align: center;
@@ -393,6 +393,7 @@ h2.portfolioSectionTitle {
         padding: 5px;
         margin-bottom: 5px;
         font-size: 40px;
+        font-size:2em;
         font-weight: 700;
         font-family:'PT Sans', sans-serif;
         }
