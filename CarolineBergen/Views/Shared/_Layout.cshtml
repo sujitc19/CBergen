@@ -35,12 +35,12 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="~/images/signature-white-small.png" class="logoImgNav" /></a>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="linkForHover"><img src="~/images/navbar/homeIcon.png" data-src="~/images/navbar/homeIcon.png" data-hover="~/images/navbar/homeIconHov.png" alt="" class="navbarIcon"/>Home</a></li>
-                        <li><a asp-area="" asp-controller="Portfolio" asp-action="Index" class="linkForHover2"><img src="~/images/navbar/portfolioIcon.png" data-src="~/images/navbar/portfolioIcon.png" data-hover="~/images/navbar/portfolioIconHov.png" alt="" class="navbarIcon2" style="max-width:50px;"/><br/>Portfolio</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="About" class="linkForHover3"><img src="~/images/navBar/aboutIcon.png" data-src="~/images/navbar/aboutIcon.png" data-hover="~/images/navbar/aboutIconHov.png" alt="" class="navbarIcon3" style="max-width:50px;"/><br/>About</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contact"  class="linkForHover4"><img src="~/images/navbar/contactIcon.png" data-src="~/images/navbar/contactIcon.png" data-hover="~/images/navbarcontactIconHov.png" alt="" class="navbarIcon4" style="max-width:50px;"/><br/>Contact</a></li>
-                        <li><a href="https://society6.com/carolinebergen" target="_blank"  class="linkForHover5"><img src="~/images/navbar/shoppingIcon.png" data-src="~/images/navbar/shoppingIcon.png" data-hover="~/images/navbar/shoppingIconHov.png" alt="" class="navbarIcon5" style="max-width:50px;"/><br/>Shopping</a></li>
-                        <li><a href="https://www.instagram.com/carolinebergen_art/" target="_blank"  class="linkForHover6"><img src="~/images/navbar/instagramIcon.png" data-src="~/images/navbar/instagramIcon.png" data-hover="~/images/navbar/instagramIconHov.png" alt="" class="navbarIcon6" style="max-width:50px;"/><br/>Instagram</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="linkForHover"><img src="~/images/navbar/homeIcon.png" data-src="~/images/navbar/homeIcon.png" data-hover="~/images/navbar/homeIconHov.png" alt="Home Icon" class="navbarIcon"/>Home</a></li>
+                        <li><a asp-area="" asp-controller="Portfolio" asp-action="Index" class="linkForHover"><img src="~/images/navbar/portfolioIcon.png" data-src="~/images/navbar/portfolioIcon.png" data-hover="~/images/navbar/portfolioIconHov.png" alt="Portfolio Icon" class="navbarIcon"/>Portfolio</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="About" class="linkForHover"><img src="~/images/navBar/aboutIcon.png" data-src="~/images/navbar/aboutIcon.png" data-hover="~/images/navbar/aboutIconHov.png" alt="About Icon" class="navbarIcon"/>About</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contact"  class="linkForHover"><img src="~/images/navbar/contactIcon.png" data-src="~/images/navbar/contactIcon.png" data-hover="~/images/navbarcontactIconHov.png" alt="Contact Icon" class="navbarIcon"/>Contact</a></li>
+                        <li><a href="https://society6.com/carolinebergen" target="_blank"  class="linkForHover"><img src="~/images/navbar/shoppingIcon.png" data-src="~/images/navbar/shoppingIcon.png" data-hover="~/images/navbar/shoppingIconHov.png" alt="Shopping Icon" class="navbarIcon"/>Shopping</a></li>
+                        <li><a href="https://www.instagram.com/carolinebergen_art/" target="_blank"  class="linkForHover"><img src="~/images/navbar/instagramIcon.png" data-src="~/images/navbar/instagramIcon.png" data-hover="~/images/navbar/instagramIconHov.png" alt="Instagram Icon" class="navbarIcon"/>Instagram</a></li>
                     </ul><div class="clearFloat"></div>
                 </div>
             </div>
@@ -105,19 +105,23 @@
             var origin = window.location.origin;
             $(function () {
                 $(".navbarIcon").mouseover(function () {
-                    this.src = origin + "/images/navbar/homeIconHov.png"
+                    var src = $(this).attr("src").match(/[^\.]+/) + "Hov.png";
+                    $(this).attr("src", src);
                 }).mouseout(function () {
-                    this.src = origin + "/images/navbar/homeIcon.png"
+                    var src = $(this).attr("src").replace("Hov", "");
+                    $(this).attr("src", src);
                 });
             });
             $(function () {
                 $(".linkForHover").mouseover(function () {
-                    this.src = origin + "/images/homeIconHov.png"
+                    var src = $(this).attr("src").match(/[^\.]+/) + "Hov.png";
+                    $(this).attr("src", src);
                 }).mouseout(function () {
-                    this.src = origin + "/images/navbar/homeIcon.png"
+                    var src = $(this).attr("src").replace("Hov", "");
+                    $(this).attr("src", src);
                 });
             });
-            $(function () {
+           /* $(function () {
                 $(".navbarIcon2").mouseover(function () {
                     this.src = origin + "/images/navbar/portfolioIconHov.png"
                 }).mouseout(function () {
@@ -186,7 +190,7 @@
                 }).mouseout(function () {
                     this.src = origin + "/images/navbar/instagramIcon.png"
                 });
-            });
+            });*/
         });
 
     </script>

@@ -112,10 +112,10 @@ img {
     letter-spacing: .1em;
 }
 
-.navbarIcon{
-    max-width:30px;
-    display:block;
-    margin:0 auto;
+.navbarIcon {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px!important;
 }
 
 /*.nav ul {
